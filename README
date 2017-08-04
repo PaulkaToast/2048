@@ -1,0 +1,21 @@
+1:
+:%s/fun/amazing/g
+
+2: 
+mkdir -p fooDir/{barDir}
+
+3: 
+rm * 
+this would prompt to remove all files (not directories). Each file would ask for a y/n confirmation before a ctually being removed.
+
+4:
+open any file with vim in the directory and then do the following commands
+
+:args *.c
+:tab all
+
+5:
+A static method can be called without an object and therefore should be called in the form ClassName.methodName(parameters) 
+
+6:
+The student should instead make either drawCircle(Color c) and drawSquare(Color c) methods or a single draw(Shape s, Color c) method inside of their ShapeDrawer Class.
